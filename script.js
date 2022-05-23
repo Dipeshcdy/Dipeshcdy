@@ -48,10 +48,8 @@ $(document).ready(function(){
 
 function menuBtn() {
     var element = document.getElementById("mobnav");
-    var x = document.getElementsByClassName("menu-btn i");
-    element.classList.toggle("active");
-    x.classList.toggle("active");
-  } 
+     element.classList.toggle("active");
+   } 
 
 
 
